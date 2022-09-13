@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    scroll-behavior: smooth;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+a:hover{
+    color: #4C83FF !important;
+}
+
+.border_gradient{
+    min-height: 100vh;
+    background: linear-gradient(161.81deg, #2AFADF 19.44%, #4C83FF 73.13%);
+}
+
+.inner_box{
+    background-color: white;
+}
+
+.heading_one{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 74px;
+    color: #000000;
+}
+
+.heading_two{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 74px;
+    color: #000000;
+}
+
+.heading_three{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.line{
+    width: 100%;
+    height: 2px !important;
+    /* background-color: #00000030; */
+    background: linear-gradient(161.81deg, #4C83FF 19.44%, #2AFADF 73.13%);
+}
+
+.outer_photo_frame{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 25px rgba(53, 157, 233, 0.36);
+}
+
+.outer_photo_frame img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.social_links img{
+    width: 30px;
+    height: 30px;
+}
+
+.social_links a{
+    text-decoration: none !important;
+    color: #000000;
+}
+
+.social_links a:hover{
+    text-decoration: none !important;
+    color: #000000;
+}
+
+.skills{
+    width: 60px;
+    height: 60px;
+}
+
+.work_sample_box{
+    width: 49%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+}
+
+.work_sample_links{
+    font-size: 20px;
+}
+
+.project_links a{
+    color: #4C83FF !important;
+}
+
+.exp_box{
+    width: 32%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+}
+
+.company_logo img{
+    height: 40px;
+}
+
+.company_name{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.work_profile, .work_duration{
+    font-size: 14px;
+}
+
+.back_top_button{
+    width: auto;
+    height: auto;
+    font-weight: 600;
+
+    background-color: transparent;
+    border: 2px solid #4C83FF;
+    border-radius: 2.5px;
+    color: #4C83FF;
+}
+
+.back_top_button:hover{
+    background-color: #4C83FF;
+    color: white;
+}
