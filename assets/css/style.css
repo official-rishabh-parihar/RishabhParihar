@@ -108,6 +108,11 @@ a:hover{
 }
 
 .exp_box{
+    width: 49%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
+}
+
+.edu_box{
     width: 32%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.267);
 }

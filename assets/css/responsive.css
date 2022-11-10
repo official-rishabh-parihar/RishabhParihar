@@ -32,7 +32,7 @@
         height: 30px;
     }
 
-    .work_sample_box, .exp_box{
+    .work_sample_box, .exp_box, .edu_box{
         width: 90%;
     }
 
@@ -79,7 +79,7 @@
         height: 50px;
     }
 
-    .work_sample_box, .exp_box{
+    .work_sample_box, .exp_box, .edu_box{
         width: 100%;
     }
 
