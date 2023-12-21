@@ -20,9 +20,10 @@ body {
     font-family: SatoshiBold;
     src: url('./assets/fonts/Satoshi-Bold.otf') format('opentype');
 }
+
 /* Font */
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -77,7 +78,6 @@ section {
 
 .nav {
     padding: 30px 0px;
-    /* margin: 0px 30px; */
     border-bottom: 1px solid white;
 
     display: flex;
@@ -133,9 +133,10 @@ section {
     line-height: normal;
 }
 
-.nav .right .nav_button a{
+.nav .right .nav_button a {
     color: #121212 !important;
 }
+
 /* Navbar */
 
 /* Home */
