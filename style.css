@@ -20,9 +20,9 @@ body {
     font-family: SatoshiBold;
     src: url('./assets/fonts/Satoshi-Bold.otf') format('opentype');
 }
-
 /* Font */
 
+/* Common */
 a {
     text-decoration: none;
 }
@@ -61,6 +61,7 @@ section {
     /* 150% */
     margin-top: 20px;
 }
+/* Common */
 
 /* Navbar */
 .background {
@@ -136,7 +137,6 @@ section {
 .nav .right .nav_button a {
     color: #121212 !important;
 }
-
 /* Navbar */
 
 /* Home */
@@ -242,9 +242,8 @@ section {
 .home .right img {
     width: 600px;
     height: 600px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
-
 /* Home */
 
 /* About Me */
@@ -260,5 +259,4 @@ section {
     color: white;
     text-align: center;
 }
-
 /* About Me */
