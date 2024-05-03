@@ -10,6 +10,12 @@
         margin-top: 30px !important;
     }
 
+    .secondry_heading {
+        font-size: 35px !important;
+        text-align: center;
+        margin-top: 0px !important;
+    }
+
     .paragraph {
         font-size: 13px !important;
         line-height: 1.8 !important;
@@ -68,12 +74,18 @@
         text-align: center;
         margin-top: 20px !important;
     }
+    
+    .secondry_heading {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 0px !important;
+    }
 
     .paragraph {
         font-size: 15px;
         line-height: 1.8 !important;
         margin-top: 10px;
-        line-height: auto !important;
+        line-height: normal;
         text-align: center;
     }
 
@@ -195,6 +207,33 @@
     
     .skills .right > .devider{
         display: none !important;
+    }
+
+    .portfolio{
+        flex-direction: column;
+    }
+
+    .portfolio .left{
+        width: 100%;
+        height: auto;
+    }
+
+    .portfolio .left .expl_btn{
+       display: none;
+    }
+
+    .portfolio .right{
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    .portfolio .right .expl_more .expl_btn{
+        display: block;
+    }
+
+    .hide{
+        display: none;
     }
 
 }

@@ -76,10 +76,10 @@ section {
 
 .paragraph {
     color: #A0A0A0;
-    font-family: SatoshiMedium;
+    font-family: SatoshiRegular;
     font-size: 20px;
     font-style: normal;
-    font-weight: 400;
+    /* font-weight: 400; */
     line-height: 30px;
     /* 150% */
     margin-top: 20px;
@@ -337,6 +337,82 @@ section {
 }
 
 /* Skills */
+
+/* Portfolio */
+
+.portfolio{
+    display: flex;
+}
+
+.portfolio .left{
+    width: 25%;
+    height: auto;
+}
+
+.portfolio .left .paragraph{
+    margin-top: 10px !important;
+}
+
+.portfolio .expl_btn{
+    width: auto;
+    height: auto;
+    padding: 14px 30px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+
+    font-family: Syne;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #121212;
+}
+
+.portfolio .right{
+    width: 75%;
+    height: auto;
+}
+
+.portfolio .right .project{
+    padding: 0px 10px;
+}
+
+.portfolio .right .project .project_head{
+    font-family: Syne;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+
+    margin-bottom: 20px;
+}
+
+.portfolio .right .project img{
+    width: 100%;
+}
+
+.portfolio .right .margins{
+    margin: 50px 0px;
+}
+
+.portfolio .right .expl_more{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio .right .expl_more .expl_btn{
+    display: none;
+}
+
+/* Portfolio */
 
 /* About Me */
 .about_me .info_text {
