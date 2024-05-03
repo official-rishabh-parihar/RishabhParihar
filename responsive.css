@@ -134,6 +134,34 @@
         line-height: 1.5;
     }
 
+    .skills{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills .left{
+        width: 100%;
+        height: auto;
+    }
+    
+    .skills .right{
+        width: 100%;
+        height: auto;
+    }
+
+    .skills .right .first_row{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+
+    .skills .right .first_row .card{
+        width: 100%;
+        height: 120px;
+    
+        display: flex;
+    }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
