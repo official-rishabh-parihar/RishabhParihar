@@ -428,3 +428,182 @@ section {
     text-align: center;
 }
 /* About Me */
+
+/* General Information */
+.general_info .content{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+}
+
+.general_info .devider{
+    width: 1px;
+    height: auto;
+    background-color: white;
+    margin: 0px 50px;
+}
+
+.general_info .content .paragraph{
+    margin: 0px !important;
+}
+/* General Information */
+
+/* Process */
+.process{
+    display: flex;
+}
+
+.process .mobile_view{
+    display: none !important;
+}
+
+.process .desk_view{
+    display: block !important;
+}
+
+.process .left{
+    margin-right: 50px;
+}
+
+.process .left .process_img{
+    width: 630px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.process .right .point{
+    margin-top: 30px;
+}
+
+.process .right .point .pointer{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.process .right .point .md_heading{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.process .right .point .paragraph{
+    margin-top: 10px;
+}
+
+.process .right .devider{
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    margin: 30px 0px;
+}
+/* Process */
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .devider{
+    width: 1px;
+    height: auto;
+    background-color: white;
+}
+
+.footer .section .md_heading{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.footer .section .sm_heading{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #A0A0A0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.footer .section .smm_heading{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #A0A0A0;
+}
+
+.footer .section .social_links {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer .section .social_links .circle {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .section .social_links .circle img{
+    width: 55%;
+}
+
+.footer .section .footer_head{
+    font-family: 'Syne';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.footer .section .link{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #A0A0A0;
+    margin-bottom: 10px;
+}
+
+.other_links {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.other_links .link{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #A0A0A0;
+}
+
+/* Footer */
