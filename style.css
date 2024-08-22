@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html,
@@ -29,7 +30,7 @@ body {
 
 /* Common */
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 section {
@@ -368,6 +369,11 @@ section {
     font-size: 18px;
     line-height: 22px;
     color: #121212;
+}
+
+.portfolio .expl_btn a{
+    text-decoration: none !important;
+    color: #121212 !important;
 }
 
 .portfolio .right{

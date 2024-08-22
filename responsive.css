@@ -136,7 +136,7 @@
     .home .left .contact_details .contact_details_left .social_links .circle {
         width: 30px !important;
         height: 30px !important;
-        margin-right: 0px !important;
+        margin: 0px 5px !important;
     }
 
     .home .left .contact_details .contact_details_left .social_links .circle img {
@@ -307,6 +307,10 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+
+    .footer .section .social_links .circle {
+        margin: 0px 5px !important;
     }
 
     .other_links{
