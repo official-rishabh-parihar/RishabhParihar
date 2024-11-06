@@ -125,7 +125,7 @@
     }
 
     .home .left .contact_details .contact_details_left .social_links {
-        justify-content: space-evenly;
+        justify-content: center;
         margin: 0 !important;
     }
 
