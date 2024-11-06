@@ -536,7 +536,7 @@ section {
 }
 
 .footer .section .sm_heading{
-    font-family: 'Satoshi';
+    font-family: SatoshiMedium;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -547,7 +547,7 @@ section {
 }
 
 .footer .section .smm_heading{
-    font-family: 'Satoshi';
+    font-family: SatoshiMedium;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -588,7 +588,7 @@ section {
 }
 
 .footer .section .link{
-    font-family: 'Satoshi';
+    font-family: SatoshiRegular;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -604,7 +604,7 @@ section {
 }
 
 .other_links .link{
-    font-family: 'Satoshi';
+    font-family: SatoshiRegular;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
